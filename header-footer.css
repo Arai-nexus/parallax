@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+    .header {
+        /* width: 100%; */
+        min-height: 100vh;
+        padding: 20px 40px;
+        background-image: url(https://placehold.jp/300x220.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        height: 94px;
+        background-attachment: scroll;
+        position: relative;
+    }
+
+    .header-title {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        filter: drop-shadow(1px 1px 10px #c0c0c0);
+        position: absolute;
+        top: 30%;
+    }
+
+    .header-contents {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header-contents li {
+        font-weight: bold;
+        margin-left: 30px;
+        transition: all 0.3s ease;
+        filter: drop-shadow(1px 1px 2px #121212);
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
