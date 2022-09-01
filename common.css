@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
@@ -17,4 +21,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+section {
+    margin-bottom: 50px;
 }
