@@ -1,17 +1,9 @@
-html{
-    /* font-size: 62.5%; */
-    /* font-size: 10px; */
-}
-
-* {
-    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-    max-width: 1200px;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     box-sizing: border-box;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 ul {

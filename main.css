@@ -4,6 +4,9 @@
     }
 
     .menu-img {
+        width:100%;
+        max-width: 100%;
+        height: auto;
         background-image: url(https://placehold.jp/300x220.png);
         height: 94px;
         background-attachment: scroll;
@@ -18,7 +21,6 @@
         font-weight: bold;
         filter: drop-shadow(1px 1px 10px #c0c0c0);
         position: absolute;
-        top: 30%;
     }
     
     .menu {
@@ -69,7 +71,6 @@
         font-weight: bold;
         filter: drop-shadow(1px 1px 10px #c0c0c0);
         position: absolute;
-        top: 30%;
     }
 
     .about-category {
@@ -91,6 +92,13 @@
         margin-bottom: 60px;
     }
 
+    .about li {
+        word-break: break-all;
+    }
+
+    /* 
+    Read Moreのボタン
+    */
     .button {
         width: 160px;
         height: 50px;
@@ -103,19 +111,43 @@
         position: relative;
     }
 
-    span::before {
+    .button::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        height: 50%;
+        border-left: 1px solid red;
+        width: 15%;
+        border-top: 1px solid red;
+    }
+
+    .button::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0%;
+        height: 50%;
+        border-right: 1px solid red;
+        width: 15%;
+        border-bottom: 1px solid red;
+    }
+
+    /* .button::before {
         width: 2px;
         height: 50%;
     }
 
-    span::after {
+    .button::after {
         position: absolute;
         content: "";
         left: 0;
         top: 0;
         background: #e03131;
         transition: all 0.3s ease;
-    }
+    } */
 
     .location-img {
         background-image: url(https://placehold.jp/300x220.png);
@@ -132,7 +164,6 @@
         font-weight: bold;
         filter: drop-shadow(1px 1px 10px #c0c0c0);
         position: absolute;
-        top: 30%;
     }
 
     .location {
@@ -160,3 +191,4 @@
         border: 0;
     }
 }
+

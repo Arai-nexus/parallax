@@ -1,6 +1,5 @@
 @media screen and (max-width: 767px) {
     .header {
-        /* width: 100%; */
         min-height: 100vh;
         padding: 20px 0;
         background-image: url(https://placehold.jp/300x220.png);
