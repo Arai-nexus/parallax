@@ -1,14 +1,14 @@
 /*
     SP対応
 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     /*
-    ヘッダー
+        ヘッダー
     */
     .header {
         min-height: 100vh;
         padding: 20px 40px;
-        background-image: url(https://placehold.jp/300x220.png);
+        background-image: url(./asset/tina-guina-obV_LM0KjxY-unsplash.jpg);
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -16,8 +16,6 @@
         background-attachment: scroll;
         position: relative;
     }
-
-
 
     .header-title {
         width: 100%;
@@ -27,7 +25,8 @@
         font-weight: bold;
         filter: drop-shadow(1px 1px 10px #c0c0c0);
         position: absolute;
-        top: 50%;
+        top: 40%;
+        left: 0;
     }
 
     .header-contents {
@@ -58,9 +57,10 @@
         ヘッダー
     */
     .header {
+        box-sizing: border-box;
         min-height: 100vh;
         padding: 20px 40px;
-        background-image: url(https://placehold.jp/300x220.png);
+        background-image: url(./asset/janko-ferlic-h9Iq22JJlGk-unsplash.jpg);
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -93,7 +93,7 @@
     }
 
     /*
-    フッター
+        フッター
     */
     .footer {
         font-size: 0.5rem;
@@ -109,9 +109,10 @@
         ヘッダー
     */
     .header {
+        box-sizing: border-box;
         min-height: 100vh;
         padding: 20px 40px;
-        background-image: url(https://placehold.jp/300x220.png);
+        background-image: url(./asset/janko-ferlic-h9Iq22JJlGk-unsplash.jpg);
         background-size: cover;
         background-position: center top;
         background-repeat: no-repeat;
@@ -144,7 +145,7 @@
     }
 
     /*
-    フッター
+        フッター
     */
     .footer {
         font-size: 0.5rem;

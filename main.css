@@ -1,7 +1,7 @@
 /*
     SP対応
 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     main {
         margin-top: 10px;
     }
@@ -9,11 +9,12 @@
     /*
     menuコンテンツ
     */
-    .img {
+    .menu-img {
         width:100%;
         max-width: 100%;
         height: auto;
-        background-image: url(https://placehold.jp/300x220.png);
+        background-position: center;
+        background-image: url(./asset/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
         height: 94px;
         background-attachment: scroll;
         position: relative;
@@ -59,6 +60,7 @@
         width: 13%;
         text-align: right;
         padding-top: 8px;
+        margin: 0;
     }
 
     /*
@@ -66,6 +68,17 @@
     */
     .about {
         text-align: center;
+    }
+
+    .about-img {
+        width:100%;
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+        background-image: url(./asset/mike-kenneally-zlwDJoKTuA8-unsplash.jpg);
+        height: 94px;
+        background-attachment: scroll;
+        position: relative;
     }
 
     .about ul {
@@ -98,9 +111,9 @@
         top: 0;
         left: 0%;
         height: 50%;
-        border-left: 1px solid red;
+        border-left: 2px solid red;
         width: 15%;
-        border-top: 1px solid red;
+        border-top: 2px solid red;
     }
 
     .button::after {
@@ -110,9 +123,9 @@
         bottom: 0;
         right: 0%;
         height: 50%;
-        border-right: 1px solid red;
+        border-right: 2px solid red;
         width: 15%;
-        border-bottom: 1px solid red;
+        border-bottom: 2px solid red;
     }
 
     
@@ -120,10 +133,13 @@
     locationコンテンツ
     */
     .location-img {
-        background-image: url(https://placehold.jp/300x220.png);
+        width:100%;
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+        background-image: url(./asset/henry-perks-BJXAxQ1L7dI-unsplash.jpg);
         height: 94px;
         background-attachment: scroll;
-
         position: relative;
     }
 
@@ -145,12 +161,10 @@
     }
 }
 
-
-
 /*
     タブレット端末
 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     main {
         margin-top: 10px;
     }
@@ -158,13 +172,11 @@
     /*
     menuコンテンツ
     */
-    .img {
+    .menu-img {
         width:100%;
         max-width: 100%;
-        height: auto;
-        background-image: url(https://placehold.jp/300x220.png);
-        height: 94px;
-        background-attachment: scroll;
+        background-image: url(./asset/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
+        background-position: center;
         position: relative;
     }
 
@@ -238,6 +250,14 @@
         text-align: center;
     }
 
+    .about-img {
+        width:100%;
+        max-width: 100%;
+        background-image: url(./asset/christopher-di-nozzi-Kx-Edb4MOIk-unsplash.jpg);
+        background-position: center;
+        position: relative;
+    }
+
     .about ul {
         display: flex;
         justify-content: space-between;
@@ -282,9 +302,9 @@
         top: 0;
         left: 0%;
         height: 50%;
-        border-left: 1px solid red;
+        border-left: 2px solid red;
         width: 15%;
-        border-top: 1px solid red;
+        border-top: 2px solid red;
     }
 
     .button::after {
@@ -294,9 +314,9 @@
         bottom: 0;
         right: 0%;
         height: 50%;
-        border-right: 1px solid red;
+        border-right: 2px solid red;
         width: 15%;
-        border-bottom: 1px solid red;
+        border-bottom: 2px solid red;
     }
 
     
@@ -305,6 +325,14 @@
     */
     .location {
         text-align: center;
+    }
+
+    .location-img {
+        width:100%;
+        max-width: 100%;
+        background-image: url(./asset/sylwia-bartyzel-D2K1UZr4vxk-unsplash.jpg);
+        background-position: center;
+        position: relative;
     }
 
     .location .category {
@@ -340,13 +368,11 @@
     /*
     menuコンテンツ
     */
-    .img {
+    .menu-img {
         width:100%;
         max-width: 100%;
-        height: auto;
-        background-image: url(https://placehold.jp/300x220.png);
-        height: 94px;
-        background-attachment: scroll;
+        background-image: url(./asset/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
+        background-position: center;
         position: relative;
     }
 
@@ -420,6 +446,14 @@
         text-align: center;
     }
 
+    .about-img {
+        width:100%;
+        max-width: 100%;
+        background-image: url(./asset/christopher-di-nozzi-Kx-Edb4MOIk-unsplash.jpg);
+        background-position: center;
+        position: relative;
+    }
+
     .about ul {
         display: flex;
         justify-content: space-between;
@@ -464,9 +498,9 @@
         top: 0;
         left: 0%;
         height: 50%;
-        border-left: 1px solid red;
+        border-left: 2px solid red;
         width: 15%;
-        border-top: 1px solid red;
+        border-top: 2px solid red;
     }
 
     .button::after {
@@ -476,17 +510,24 @@
         bottom: 0;
         right: 0%;
         height: 50%;
-        border-right: 1px solid red;
+        border-right: 2px solid red;
         width: 15%;
-        border-bottom: 1px solid red;
+        border-bottom: 2px solid red;
     }
-
     
     /*
     locationコンテンツ
     */
     .location {
         text-align: center;
+    }
+
+    .location-img {
+        width:100%;
+        max-width: 100%;
+        background-image: url(./asset/sylwia-bartyzel-D2K1UZr4vxk-unsplash.jpg);
+        background-position: center;
+        position: relative;
     }
 
     .location .category {
